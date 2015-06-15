@@ -17,15 +17,21 @@
 ##What we need?
 </section>
 <section>
+
+![left](images/logo.png)
+
 #Code
 
 * uMarkdown
 * Slide
 * Parser
 * Event Handler
+* Process Bar
 
 </section>
 <section>
+![right](images/logo.png)
+
 #What is Different 
 
 **Impress.js**, **Reveal.js**
@@ -41,7 +47,16 @@
 
 </section>
 <section>
-#Slide 4
+#Image Support
+
+![background](images/background.jpg)
+
+![right](images/left.jpg)
+
+* Background
+* Left
+* Right
+
 </section>
 <section class="first">
 #Q & A

@@ -60,7 +60,7 @@ section ul {
 }
 
 section ul li {
-    font-size: 2.2em;
+    font-size: 2.5em;
 }
 
 section.first h1 {
@@ -70,7 +70,7 @@ section.first h1 {
 }
 
 section.first h2 {
-    font-size: 2.5em;
+    font-size: 2.8em;
     color: #00bcd4;
     top: 30%;
     left: 60%;
@@ -118,4 +118,26 @@ code {
 
 .hidden {
     display: none;
+}
+
+.image-left {
+    margin-left: 10%;
+    width: 50%;
+    height: 100%;
+}
+
+.image-right {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
 }
