@@ -1,34 +1,50 @@
 [
   {
-    "time": "00:01.00"
-  },
-  {
     "time": "00:01.00",
-    "slide": 1,
     "code": "https://raw.githubusercontent.com/phodal/echoesworks/master/bower.json",
     "word": "hello, world"
   },
   {
-    "time": "00:7.51",
-    "slide": 2,
-    "code": "https://raw.githubusercontent.com/phodal/echoesworks/master/package.json",
-    "word": "hello, world, next"
+    "time": "00:05.00",
+    "word": [
+      {
+        "word": "Привет"
+      },
+      {
+        "word": "Bonjour"
+      },
+      {
+        "word": "こんにちは"
+      },
+      {
+        "word": "你好"
+      },
+      {
+        "word": "Ciao"
+      },
+      {
+        "word": "Hello, World"
+      }
+    ]
   },
   {
     "time": "00:12.51",
     "code": false,
-    "word": "hello, world, next"
+    "word": "hello, world, 2"
   },
   {
     "time": "00:17.51",
-    "slide": 3,
-    "code": "https://raw.githubusercontent.com/phodal/lettuce/master/bower.json",
-    "word": "hello, world, next"
+    "code": false,
+    "word": "hello, world, 3"
   },
   {
     "time": "00:22.51",
-    "slide": 4,
-    "code": "https://raw.githubusercontent.com/phodal/echoesworks/master/src/parser.js",
-    "word": "hello, world, next"
+    "code": false,
+    "word": "hello, world, 1"
+  },
+  {
+    "time": "00:27.51",
+    "code": false,
+    "word": "hello, world, 3"
   }
 ]

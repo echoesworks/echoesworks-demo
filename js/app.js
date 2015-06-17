@@ -3,7 +3,9 @@ window.onload = function(){
 		document.querySelector('slide').innerHTML = EchoesWorks.md.parse(data);
 		EchoesWorks.imageHandler();
 		new EchoesWorks({
-			element: 'slide'
+			element: 'slide',
+			source: 'data/data.json',
+			auto: true
 		});
 	})
 };
