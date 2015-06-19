@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%; /* <------------ */
-    overflow:hidden;
+    overflow: hidden;
 }
 
 div.show {
@@ -64,7 +64,7 @@ section ul li {
 }
 
 section.first h1 {
-    top: 30%;
+    margin-top: 30%;
     font-size: 5em;
     position: relative;
 }
@@ -72,8 +72,7 @@ section.first h1 {
 section.first h2 {
     font-size: 2.8em;
     color: #00bcd4;
-    top: 30%;
-    left: 60%;
+    margin-left: 60%;
     position: relative;
 }
 
@@ -151,4 +150,36 @@ words {
 .right {
     float: right;
     width: 50%;
+}
+
+@media screen and (min-width: 321px) {
+    pre {
+        height: auto;
+    }
+    .full section {
+        background: no-repeat fixed center;
+        webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-device-width: 1200px)
+and (-webkit-device-pixel-ratio: 1.5) {
+    section h1,
+    section.first h1{
+        font-size: 12em;
+    }
+    section h2 {
+        font-size: 7.2em;
+    }
+    section ul li {
+        font-size: 4.4em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    section b {
+        font-size: 6em;
+    }
 }
